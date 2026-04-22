@@ -1,0 +1,15 @@
+// ltl-8080-emu/main.ltl
+//
+// Intel 8080 emulator for Space-Invaders-era targets.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-8080-emu v0.1.0")
+    io::println("Intel 8080 emulator for Space-Invaders-era targets.")
+    0
+}
